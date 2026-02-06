@@ -24,7 +24,7 @@ cfg.add_argument("--gamma", type=float, default=0.2)
 cfg.set_defaults(
     description="STAIR",
     root="../../data",
-    dataset='Amazon2014Baby_550_MMRec',
+    dataset='Amazon2014Electronics_550_MMRec',
     epochs=500,
     batch_size=1024,
     optimizer='adamwsevo',
